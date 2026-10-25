@@ -1,0 +1,74 @@
+{
+  "code": {
+    "plain_tps": 51.35054280732575,
+    "k2": {
+      "tps": 88.16330166404758,
+      "speedup": 1.716891328585334,
+      "acceptance": 0.7987012987012987,
+      "tokens_per_pass": 2.5974025974025974,
+      "identical": true
+    },
+    "k4": {
+      "tps": 72.27764009901121,
+      "speedup": 1.4075341008605649,
+      "acceptance": 0.6206896551724138,
+      "tokens_per_pass": 3.4482758620689653,
+      "identical": true
+    },
+    "k8": {
+      "tps": 52.75603227391376,
+      "speedup": 1.0273704889909654,
+      "acceptance": 0.4622093023255814,
+      "tokens_per_pass": 4.651162790697675,
+      "identical": true
+    }
+  },
+  "english": {
+    "plain_tps": 39.3822241793798,
+    "k2": {
+      "tps": 45.76034896014057,
+      "speedup": 1.161954407443049,
+      "acceptance": 0.495,
+      "tokens_per_pass": 2.0,
+      "identical": true
+    },
+    "k4": {
+      "tps": 33.19682751949107,
+      "speedup": 0.8429393771231604,
+      "acceptance": 0.35240963855421686,
+      "tokens_per_pass": 2.4096385542168677,
+      "identical": false
+    },
+    "k8": {
+      "tps": 21.9262770677007,
+      "speedup": 0.5567556816453529,
+      "acceptance": 0.21114864864864866,
+      "tokens_per_pass": 2.7027027027027026,
+      "identical": false
+    }
+  },
+  "poem": {
+    "plain_tps": 51.09282062326036,
+    "k2": {
+      "tps": 57.469469140059616,
+      "speedup": 1.1248051769116119,
+      "acceptance": 0.36637931034482757,
+      "tokens_per_pass": 1.7241379310344827,
+      "identical": true
+    },
+    "k4": {
+      "tps": 40.88553851320274,
+      "speedup": 0.8002208140881014,
+      "acceptance": 0.2261904761904762,
+      "tokens_per_pass": 1.9047619047619047,
+      "identical": true
+    },
+    "k8": {
+      "tps": 23.248129343800752,
+      "speedup": 0.4550175359317877,
+      "acceptance": 0.12747524752475248,
+      "tokens_per_pass": 1.9801980198019802,
+      "identical": true
+    }
+  }
+}
