@@ -1,6 +1,6 @@
 # Speculative decoding in about sixty lines
 
-The code from the Inference Junkie video on speculative decoding. A small draft model guesses the next few tokens, the big model checks all of them in one pass, and the output is the same as the big model on its own.
+The code from the Inference Junkie video on speculative decoding: [How AI answers 3x faster without changing a word](https://youtu.be/YvJ2TV1WxTk). A small draft model guesses the next few tokens, the big model checks all of them in one pass, and the output is the same as the big model on its own.
 
 Everything runs on Apple silicon with [MLX](https://github.com/ml-explore/mlx). The models are Qwen2.5-7B-Instruct (big) and Qwen2.5-0.5B-Instruct (draft), both 4-bit from `mlx-community`. They share a tokenizer, which speculative decoding needs.
 
